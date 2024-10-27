@@ -26,6 +26,7 @@ window.$docsify = {
     scrollToTop: {
         auto: true,
         text: 'Top',
+        icon: 'fa fa-arrow-up',
         right: 15,
         bottom: 15,
         offset: 500
@@ -44,6 +45,12 @@ scrollToTop.text
 * 默认: Top
 * 类型: String
 * 描述: 按钮文字
+
+向上滚动.icon
+
+* 默认值：fa fa-向上箭头
+* 类型：字符串
+* 描述：按钮图标（需要加载 Fontawesome 图标）
 
 scrollToTop.right
 * 默认: 15
